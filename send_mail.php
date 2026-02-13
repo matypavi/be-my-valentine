@@ -11,16 +11,16 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;
     $mail->isSMTP();
-    $mail->Host       = 'smtp.gmail.com';                       //gmail SMTP server set to send through
+    $mail->Host       = smtp.gmail.com;                       //gmail SMTP server set to send through
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'user@example.com';                     //SMTP username (your gmail account)
-    $mail->Password   = 'secret';                               //SMTP password (your gmail password or app password)
+    $mail->Username   = matiastrashvi3@gmail.com;                     //SMTP username (your gmail account)
+    $mail->Password   = Basuradeelote1010101010101010Matias1010101010101010;                               //SMTP password (your gmail password or app password)
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');         //Set the sender of the message (your email address)
-    $mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient (your bae's email address)
+    $mail->setFrom(matiastrashvi3@gmail.com, 'Mailer');         //Set the sender of the message (your email address)
+    $mail->addAddress(felixgrafiti@gmail.com, 'Joe User');     //Add a recipient (your bae's email address)
 
     //Content
     $mail->isHTML(true);
